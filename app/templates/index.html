@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random names</title>
+    <style>
+        body {
+            text-align: center;
+            background: brown;
+            color: cornsilk;
+            font-family: cursive;
+        }
+
+        h4 {
+            margin-bottom: 40px;
+        }
+
+        ul {
+            font-size: x-large;
+            display: table;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        ul>li {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Random Usernames</h1>
+    <h3>For when you register on a website/game and don't know what name to put</h3>
+    <h4>Press F5 to get more names!</h4>
+    <ul>
+        {% for word in random_words %}
+            <li>{{word}}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
