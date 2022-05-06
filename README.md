@@ -6,7 +6,7 @@ Simple website that generates docker-like random names. Useful for for when you 
 
 You can visit a preview here https://random-names.skydreamy.com/
 
-## 30 seconds start
+## Quick start
 
 1. Clone the project
 1. Open a terminal on the root of the project and type `docker-compose up`
