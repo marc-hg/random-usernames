@@ -2,7 +2,7 @@
 
 Simple website that generates docker-like random names. Useful for for when you register on a website/game and don't know what name to put
 
-[random-usernames-website](https://i.imgur.com/TQPLuYl.png
+[random-usernames-website](https://i.imgur.com/TQPLuYl.png)
 
 You can visit a preview here https://random-names.skydreamy.com/
 
