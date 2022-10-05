@@ -28,13 +28,30 @@
         ul>li {
             margin-bottom: 20px;
         }
+        .btn {
+                    display: inline-block;
+                    outline: none;
+                    cursor: pointer;
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 600;
+                    border-radius: 8px;
+                    font-family: inherit;
+                    font-weight: bold;
+                    padding: 14px 24px;
+                    margin-bottom: 20px;
+                    border: none;
+                    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+                    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+                    color: #fff;
+        }
     </style>
 </head>
 
 <body>
     <h1>Random Usernames</h1>
     <h3>For when you register on a website/game and don't know what name to put</h3>
-    <h4>Press F5 to get more names!</h4>
+    <button id="#btn" class="btn" onClick="window.location.reload();">More names!</button>
     <ul>
         {% for word in random_words %}
             <li>{{word}}</li>
